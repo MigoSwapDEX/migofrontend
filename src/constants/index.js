@@ -16,7 +16,12 @@ export const navLinks = [
   },
   {
     id: "launchApp",
-    href: "https://dex.migoswap.org",
+    items: [
+      {
+        label: "launchApp",
+        href: "https://dex.migoswap.org",
+        isHighlighted: true,
+      },
     title: "Launch App",
   },
 ];
