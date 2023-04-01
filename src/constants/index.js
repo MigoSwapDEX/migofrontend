@@ -16,6 +16,7 @@ export const navLinks = [
   },
   {
     id: "launchApp",
+    href: "https://dex.migoswap.org",
     title: "Launch App",
   },
 ];
