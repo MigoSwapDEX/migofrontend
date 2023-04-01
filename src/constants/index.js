@@ -22,7 +22,7 @@ export const navLinks = [
         href: "https://dex.migoswap.org",
         isHighlighted: true,
       },
-    title: "Launch App",
+      ],
   },
 ];
 
