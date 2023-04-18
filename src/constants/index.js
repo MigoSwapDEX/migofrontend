@@ -1,9 +1,4 @@
-import {
-  amigoesImage,
-  dapps,
-  people,
-  ethereumb,
-} from "../assets";
+import { amigoesImage, dapps, people, ethereumb } from "../assets";
 
 export const navLinks = [
   {
@@ -16,7 +11,8 @@ export const navLinks = [
   },
   {
     id: "launchApp",
-    title: "launchApp",
+    title: "Launch App",
+    link: "https://dex.migoswap.org/#/swap",
   },
 ];
 

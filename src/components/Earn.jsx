@@ -9,7 +9,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const Earn = () => {
   return (
-    <div className="flex flex-row xs:flex-col md:flex-row">
+    <div className="xs:flex md:flex-row">
       <div className="xs:w-full md:w-1/2 justify-center items-center">
         <img
           src={earnsvg}

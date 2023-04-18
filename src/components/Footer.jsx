@@ -17,18 +17,22 @@ const Footer = () => {
               key={index}
               className="mt-16 px-20 justify-between items-center"
             >
-              <span className="text-[#915EFF] font-extrabold">{item.label}</span>
+              <span className="text-[#915EFF] font-extrabold">
+                {item.label}
+              </span>
               {item.items?.map(({ label, href }) => (
                 <li key={label}>
                   {href ? (
-                    <Link
-                      href={href}
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      bold={false}
-                    >
-                      {label}
-                    </Link>
+                    <>
+                      <a
+                        href={href}
+                        target="_blank"
+                        rel="noreferrer noopener"
+                        bold={false}
+                      >
+                        {label}
+                      </a>
+                    </>
                   ) : (
                     <div>{label}</div>
                   )}
