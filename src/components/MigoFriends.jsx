@@ -9,7 +9,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 
 const MigoFriends = () => {
   return (
-    <div className="flex flex-row xs:flex-col md:flex-row">
+    <div className="xs:flex md:flex-row">
       <div className="xs:w-full md:w-1/2 justify-center items-center my-auto">
         <motion.div variants={textVariant()}>
           <h2 className={`${styles.sectionHeadText}`}>
