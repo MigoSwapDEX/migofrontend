@@ -12,6 +12,7 @@ import Trade from "./Trade";
 import Earn from "./Earn";
 import MigoFriends from "./MigoFriends";
 import Footer from "./Footer";
+import Ido from "./Ido";
 
 export {
   Hero,
@@ -25,5 +26,6 @@ export {
   Trade,
   Earn,
   MigoFriends,
+  Ido,
   Footer,
 };

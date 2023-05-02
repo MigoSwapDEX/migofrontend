@@ -1,5 +1,4 @@
 import React from "react";
-import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -38,4 +37,4 @@ const Earn = () => {
   );
 };
 
-export default SectionWrapper(Earn, "");
+export default SectionWrapper(Earn, "earn");

@@ -8,6 +8,7 @@ import {
   Earn,
   MigoFriends,
   StarsCanvas,
+  Ido,
   Footer,
 } from "./components";
 
@@ -29,6 +30,7 @@ const App = () => {
           <MigoFriends />
           <StarsCanvas />
         </div>
+        <Ido/>
         <Footer />
       </div>
     </BrowserRouter>

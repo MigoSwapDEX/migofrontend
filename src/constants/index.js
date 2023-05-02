@@ -1,4 +1,4 @@
-import { amigoesImage, dapps, people, ethereumb } from "../assets";
+import { migosvg, dapps, people, ethereumb } from "../assets";
 
 export const navLinks = [
   {
@@ -28,6 +28,29 @@ const services = [
   {
     title: "DAPPs for everyone",
     icon: dapps,
+  },
+];
+
+const idos = [
+  {
+    title: "Commit CORE",
+    company_name: null,
+    icon: migosvg,
+    iconBg: "#383E56",
+    date: null,
+    points: [
+      "Commit CORE to participate in this sale, incase of overflow left over SHDW will be returned back to users wallet",
+    ],
+  },
+  {
+    title: "Claim your tokens",
+    company_name: null,
+    icon: migosvg,
+    iconBg: "#E6DEDD",
+    date: null,
+    points: [
+      "After the Token sales is over, you can claim any tokens bought, and any unspent CORE tokens will be returned to your wallet.",
+    ],
   },
 ];
 
@@ -82,4 +105,4 @@ const footerConfig = [
   },
 ];
 
-export { services, amigoesImage, footerConfig };
+export { services, migosvg, idos, footerConfig };
