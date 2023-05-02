@@ -71,13 +71,15 @@ const Ido = () => {
       <div className="mt-20 flex flex-col">
         <VerticalTimeline>
           {idos.map((ido, index) => (
-            <IdoCard
-              key={`ido-${index}`}
-              ido={ido}
-            />
+            <IdoCard key={`ido-${index}`} ido={ido} />
           ))}
         </VerticalTimeline>
       </div>
+      <motion.div variants={textVariant()}>
+        <p className={`${styles.sectionSubText} text-center`}>
+          Our IFO is coming soon...
+        </p>
+      </motion.div>
     </>
   );
 };
